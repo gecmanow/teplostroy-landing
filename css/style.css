@@ -90,17 +90,47 @@ header {
 .offer__header {
     margin-bottom: 2rem;
     color: #ffffff;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
 }
 .offer__subheader {
-    width: 50%;
-    margin: 0 auto 1.5rem auto;
+    
+    margin: 0 0 1.5rem 0;
     color: #ffffff;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     padding: 0.375rem 0.75rem 0.575rem 0.75rem;
     background-color: #ef8c10;
+}
+.offer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.needs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 4rem;
+}
+.offer__needs {
+    color: #ffffff;
+    font-size: 1.1rem;
+    list-style: none;
+    line-height: 1.2;
+}
+.offer__last-need {
+    background-color: #ef8c10;
+    padding: .375rem .75rem;
+    text-align: center;
+    font-weight: bold;
+}
+.offer__needs li {
+    margin-bottom: .75rem;
+}
+.offer__form {
+    padding-top: 1rem;
 }
 .offer__form-col,
 .order__form-col {
@@ -110,7 +140,12 @@ header {
     align-items: center;
     align-content: center;
 }
-.offer__form-header,
+.offer__form-header {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
 .order__form-header {
     color: #ffffff;
     text-align: center;
