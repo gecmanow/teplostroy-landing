@@ -13,9 +13,12 @@ section {
     position: relative;
 }
 header {
-    background-color: #06c;
+    /*background-color: #06c;*/
     width: 100%;
     padding-top: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
     z-index: 3;
 }
 .logo {
@@ -73,8 +76,11 @@ header {
 }
 #offer {
     background-color: #06c;
-    padding: 3rem 0;
+    padding: 120px 0 3rem 0;
     height: 100vh;
+    background: url('../video/offer_fon.mp4');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #offer:after {
   background: inherit;
@@ -88,6 +94,30 @@ header {
   transform: skewY(-2deg);
   transform-origin: 100%;
   z-index: -1;
+}
+#offer video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.offer__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    background-color: #06c;
+    opacity: .75;
+    object-fit: cover;
 }
 .offer__header {
     margin-bottom: 2rem;
