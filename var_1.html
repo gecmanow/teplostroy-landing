@@ -21,18 +21,17 @@
         <link rel="stylesheet" href="css/style_var_1.css"/>
     </head>
     <body>
-        <header>
+        <header class="header">
             <div class="header-pc container">
                 <div class="row">
                     <div class="col-md-2 logo">
-                        <img src="images/logo.png">
+                        <img src="images/logo.svg">
                     </div>
                     <div class="col-md-7 header__menu">
                         <ul>
                             <li><a href="#">Услуги</a></li>
                             <li><a href="#">Этапы работ</a></li>
                             <li><a href="#">Наши проекты</a></li>
-                            <li><a href="#">О компании</a></li>
                             <li><a href="#">Контакты</a></li>
                         </ul>
                     </div>
@@ -65,7 +64,7 @@
                             <ul class="offer__needs">
                                 <li>Хотите отремонтировать котельное оборудование?</li>
                                 <li>Необходима перестройка и перепланировка котельной?</li>
-                                <li>Нужно перевести паровой котел на водогрейный режим?</li>
+                                <!--<li>Нужно перевести паровой котел на водогрейный режим?</li>-->
                                 <li>Необходима антикоррозийная защита поверхностей?</li>
                                 <li>Желаете заменить топочные и конвективные трубы паровых котлов?</li>
                                 <li class="offer__last-need">Мы быстро и качественно решим эти вопросы!</li>
@@ -75,7 +74,7 @@
                     <div class="row">
                         <div class="col-md-12 offer__form-wrapper">
                             <form method="post" class="offer__form animation">
-                                <h3 class="offer__form-header">Оставьте заявку сейчас<br>и получите бесплатную консультацию<br>и расчёт стоимости работ</h3>
+                                <h3 class="offer__form-header">Оставьте заявку сейчас и получите<br>бесплатную консультацию и расчёт стоимости работ</h3>
                                 <div class="offer__form-col">
                                     <div class="offer__form-line form-row">
                                         <input type="text" class="offer__form-input form-control" id="offer_form_name" name="offer_form_name" placeholder="Введите имя">
@@ -137,77 +136,26 @@
                 </div>
             </section>
             <section id="advantages">
-                <div class="container advantages__first">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2 class="advantages-header">Почему выбирают нас</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="advantage">
-                                <i></i>
-                                <h5>Опыт работы</h5>
-                                <p>Успешно ремонтируем котельное оборудование с 1998 года</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="advantage">
-                                <i></i>
-                                <h5>Высокая квалификация</h5>
-                                <p>Полностью укомплектованные бригады с аттестованными рабочими от 4 разряда</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="advantage">
-                                <i></i>
-                                <h5>Контроль качества</h5>
-                                <p>Строго соблюдаем технологии при выполнении работ</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="advantage">
-                                <i></i>
-                                <h5>Соблюдение сроков</h5>
-                                <p>Срок выполнения работ известен заранее и прописан в договоре</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="advantage">
-                                <i></i>
-                                <h5>Удобство</h5>
-                                <p>Выезжаем на объекты для оценки, составляем дефектную ведомость, смету и проект производства работ.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="advantage">
-                                <i></i>
-                                <h5>Гарантия</h5>
-                                <p>Гарантия выполненные работы от 1 года прописана в договоре</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="advantages">
                                 <div class="advantages__header animation">
-                                    <h2>Работа с нами</h2>
+                                    <h2>Почему<br><span>именно мы?</span></h2>
                                 </div>
                                 <div class="advantage">
                                     <div class="advantage__left">
-                                        <h3 class="animation">это <span>качественно</span></h3>
+                                        <h3 class="animation">делаем <span>качественно</span></h3>
                                         <ul class="advantages__list animation">
-                                            <li>Успешно ремонтируем котельное оборудование с 1998 года</li>
-                                            <li>Полностью укомплектованные бригады с аттестованными рабочими от 4 разряда</li>
-                                            <li>Соблюдаем технологии и ГОСТы при выполнении работ</li>
-                                            <li>Срок выполнения работ известен заранее и прописан в договоре</li>
-                                            <li>Гарантия на выполненные работы от 1 года прописана в договоре</li>
+                                            <li><span>Успешно ремонтируем</span>&#160;котельное оборудование&#160;<span>с 1998 года</span></li>
+                                            <li>Полностью укомплектованные бригады&#160;<span>с аттестованными рабочими от 4 разряда</span></li>
+                                            <li><span>Соблюдаем технологии и ГОСТы</span>&#160;при выполнении работ</li>
+                                            <li><span>Срок</span>&#160;выполнения работ&#160;<span>известен заранее</span>&#160;и прописан в договоре</li>
+                                            <li class="advantage__last"><span>Гарантия</span>&#160;на выполненные работы&#160;<span>от 1 года</span>&#160;прописана в договоре</li>
                                         </ul>
                                     </div>
                                     <div class="advantage__right">
-
+                                        
                                     </div>
                                 </div>
                                 <div class="advantage">
@@ -215,21 +163,21 @@
                                         
                                     </div>
                                     <div class="advantage__right">
-                                        <h3>это <span>быстро</span></h3>
+                                        <h3>работаем <span>быстро</span></h3>
                                         <ul class="advantages__list animation">
-                                            <li>Максимум 1 неделя от звонка до коммерческого предложения</li>
-                                            <li>Все работы занимают в среднем 2 недели</li>
+                                            <li>Максимум&#160;<span>1 неделя</span>&#160;от звонка&#160;<span>до коммерческого предложения</span></li>
+                                            <li class="advantage__last"><span>Все работы</span>&#160;занимают в среднем&#160;<span>2 недели</span></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="advantage">
                                     <div class="advantage__left">
-                                        <h3>это <span>удобно</span>, <span>просто</span> и <span>понятно</span></h3>
+                                        <h3>с нами <span>удобно</span>, <span>просто</span> и <span>понятно</span></h3>
                                         <ul class="advantages__list animation">
-                                            <li>Делаем всё "под ключ"</li>
-                                            <li>Выезжаем на объекты для оценки</li>
+                                            <li>Делаем всё&#160;<span>"под ключ"</span></li>
+                                            <li><span>Выезжаем на объекты</span>&#160;для оценки</li>
                                             <li>Составляем дефектную ведомость, смету и проект производства работ</li>
-                                            <li>Предлагаем удобные условия доставки</li>
+                                            <li class="advantage__last">Предлагаем&#160;<span>удобные условия</span>&#160;доставки</li>
                                         </ul>
                                     </div>
                                     <div class="advantage__right">
@@ -246,19 +194,23 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="stages__header animation">
-                                <h2>Простые и понятные этапы работ</h2>
+                                <h2>Этапы<br><span>работ</span></h2>
                             </div>
                             <div class="stages">
-                                <div class="stage animation">
+                                <div class="stage stage-1 animation">
                                     <div class="stage__number">
                                         <div>1</div>
                                     </div>
                                     <div class="stage__info">
-                                        <div>Оставляете завку</div>
+                                        <div class="stage-1__header">
+                                            <div>Оставляете завку&#160;</div>
+                                            <span>-&#160;</span>
+                                            <a class="stage__btn" href="#order">оставить заявку</a>
+                                        </div>
                                         <p>Свяжитесь с нами любым удобным для Вас способом и получите консультацию</p>
                                     </div>
                                 </div>
-                                <div class="stage animation">
+                                <div class="stage stage-2 animation">
                                     <div class="stage__number">
                                         <div>2</div>
                                     </div>
@@ -267,12 +219,11 @@
                                         <ul>
                                             <li>Выезжаем на объект для оценки</li>
                                             <li>Составляем дефектную ведомость, смету и проект производства работ</li>
-                                            <li>Заключаем договор</li>
-                                            <li>Выставляем счёт</li>
+                                            <li>Заключаем договор и выставляем счёт</li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="stage animation">
+                                <div class="stage stage-3 animation">
                                     <div class="stage__number">
                                         <div>3</div>
                                     </div>
@@ -281,7 +232,7 @@
                                         <p>Как вам удобно - наличным или безналичным способом</p>
                                     </div>
                                 </div>
-                                <div class="stage animation">
+                                <div class="stage stage-4 animation">
                                     <div class="stage__number">
                                         <div>4</div>
                                     </div>
@@ -302,11 +253,16 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h2 class="projects__header animation">Реализованные проекты</h2>
+                            <h2 class="projects__header animation">Наши клиенты<br>
+                                <span class="projects__client-property client-item-0">довольны</span>
+                                <span class="projects__client-property client-item-1">обращаются повторно</span>
+                                <span class="projects__client-property client-item-2">нас рекомендуют</span>
+                            </h2>
                             <div class="slider single-item animation">
                                 <div class="slider__item">
                                     <div class="slider__left">
-                                        <h4 class="slider__header">Монтаж газопроводов котельной ООО "КрасТЭК"</h4>
+                                        <h4 class="slider__header">ООО "КрасТЭК"</h4>
+                                        <p class="slider__work">Монтаж газопроводов котельной</p>
                                         <p class="slider__subheader">Выполненные работы:</p>
                                         <ul class="slider__list">
                                             <li>Демонтаж старых труб</li>
@@ -317,12 +273,13 @@
                                         </ul>
                                     </div>
                                     <div class="slider__right">
-                                        <img src="images/1.jpg" alt="">
+                                        <div class="slider__image slider-1"></div>
                                     </div>
                                 </div>
                                 <div class="slider__item">
                                     <div class="slider__left">
-                                        <h4 class="slider__header">Монтаж котлов и дымососов котельной ООО "Дорхан-Красноярск"</h4>
+                                        <h4 class="slider__header">ООО "Дорхан-Красноярск"</h4>
+                                        <p class="slider__work">Монтаж котлов и дымососов котельной</p>
                                         <p class="slider__subheader">Выполненные работы:</p>
                                         <ul class="slider__list">
                                             <li>Демонтаж старых труб</li>
@@ -333,7 +290,7 @@
                                         </ul>
                                     </div>
                                     <div class="slider__right">
-                                        <img src="images/2.jpg" alt="">
+                                        <div class="slider__image slider-2"></div>
                                     </div>
                                 </div>
                                 <div class="slider__item">
@@ -348,7 +305,7 @@
                                         </ul>
                                     </div>
                                     <div class="slider__right">
-                                        <img src="">
+                                        <div class="slider__image slider-3"></div>
                                     </div>
                                 </div>
                                 <div class="slider__item">
@@ -363,7 +320,7 @@
                                         </ul>
                                     </div>
                                     <div class="slider__right">
-                                        <img src="">
+                                        <div class="slider__image slider-4"></div>
                                     </div>
                                 </div>
                                 <div class="slider__item">
@@ -378,11 +335,10 @@
                                         </ul>
                                     </div>
                                     <div class="slider__right">
-                                        <img src="">
+                                        <div class="slider__image slider-5"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="slider__buttons"></div>
                         </div>
                     </div>
                 </div>
@@ -397,10 +353,11 @@
                 </div>
             </section>
             <section id="order">
+                <div class="order__back"></div>
                 <div class="container animation">
                     <div class="row">
                         <div class="col-md-12">
-                            <h2 class="order__header">Оставьте заявку сейчас и получите подробную консультацию</h2>
+                            <h2 class="order__header">Оставьте заявку сейчас и получите<br>бесплатную консультацию и расчет стоимости работ</h2>
                             <form method="post" class="order__form">
                                 <div class="order__form-col">
                                     <div class="order__form-line form-row">
@@ -426,7 +383,7 @@
                         <div class="footer animation">
                             <div class="footer__left-col">
                                 <div class="footer__logo">
-                                    <img src="images/logo__footer.png" alt="">
+                                    <img src="images/logo-footer.svg" alt="">
                                 </div>
                                 <div class="footer__contacts">
                                     <a href="#" class="footer__phone">+7 (123) 456-78-90</a>
